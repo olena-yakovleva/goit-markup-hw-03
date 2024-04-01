@@ -84,11 +84,13 @@ img {
 .rheade-menu-list {
     gap: 40px;
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
 }
 
 .header-menu-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -236,6 +238,7 @@ width: calc((100% - 3 * 24px) / 4);
     padding-bottom: 32px;
     background-color: #FFFFFF;
     width: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 /* .team-card:not(:last-child) {
     margin-bottom: 32px;
@@ -247,7 +250,7 @@ width: calc((100% - 3 * 24px) / 4);
 
 .team-card-name {
 
-    border-radius: 0px 0px 4px 4px;
+    
     text-align: center;
     margin-bottom: 8px;
     font-weight: 500;
@@ -333,7 +336,6 @@ width: calc((100% - 3 * 24px) / 4);
     letter-spacing: 0.03em;
     color: #4d5ae5;
     text-transform: uppercase;
-    display: flex;
     margin-bottom: 16px;
 }
 
